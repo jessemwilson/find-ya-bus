@@ -15,19 +15,21 @@
     <%= f.label :address %><br>
     <%= f.text_field :address %>
   </div>
-  <div class="field">
+  
+   <div class="field form-group">
     <%= f.label :city %><br>
-    <%= f.text_field :city %>
+    <%= f.select :city, Location::CITY, {prompt: 'Select a city'}, {class: "form-control"} %>
   </div>
-  <div class="field">
+  <!-- <div class="field">
     <%= f.label :latitude %><br>
     <%= f.text_field :latitude %>
   </div>
   <div class="field">
     <%= f.label :longitude %><br>
     <%= f.text_field :longitude %>
-  </div>
-  <div class="actions">
+  </div> -->
+  <br>
+  <div class="action">
     <%= f.submit %>
   </div>
 <% end %>
