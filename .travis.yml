@@ -1,11 +1,11 @@
 branches:
-	only:
-		- 'master'
+ only:
+   - 'master'
 
-	language: ruby
-	rvm:
-		- 2.2.1
+language: ruby
+rvm:
+ - 2.2.1
 
-	script:
-		- bundle exec rake db:setup
-		- bundle exec rake test
+script:
+ - bundle exec rake db:setup
+ - bundle exec rake test
