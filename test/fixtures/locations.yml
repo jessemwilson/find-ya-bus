@@ -2,12 +2,11 @@
 
 one:
   address: MyString
-  city: MyString
-  latitude: 1.5
-  longitude: 1.5
+  city: Atlanta
+
 
 two:
   address: MyString
-  city: MyString
-  latitude: 1.5
-  longitude: 1.5
+  city: Atlanta
+  latitude: 33.7583883
+  longitude: 84.38421369999999
